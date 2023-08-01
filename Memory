@@ -1,0 +1,13 @@
+from langchain import ConversationChain, OpenAI
+from langchain.memory import ConversationBufferMemory
+ 
+ 
+memory = ConversationBufferMemory()
+memory.chat_memory.add_user_message("你好!")
+memory.chat_memory.add_ai_message("你好吗?")
+llm = OpenAI(temperature=0)
+chain = ConversationChain(llm=llm,
+                          verbose=True,
+                          memory=memory)
+chain.predict(input="最近怎么样!")
+print(chain.predict(input="感觉很不错，刚和AI做了场对话."))
