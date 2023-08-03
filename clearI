@@ -1,0 +1,19 @@
+}  
+ }  
+ var clearI = setInterval(spr,20);
+  }
+ }
+ window.onload = function(){
+  function happyNewYear(){
+   new showcoo(); 
+ } 
+ setInterval(happyNewYear,400); 
+} 
+</script> 
+<style type="text/css">
+  .aa
+  {
+   font: "微软雅黑";
+   font-size: 30px;
+   color: gold;   
+   text-align: center;  
