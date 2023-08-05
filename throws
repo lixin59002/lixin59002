@@ -1,0 +1,15 @@
+protected Iterator doGetAllUsersContainingName(String name, String role) 
+				throws UserProfileResourceException { 
+ 
+		System.out.println("SampleUserManagerImpl.doGetAllUsersContainingName - This operation is not implemented !");  
+		ArrayList users = new ArrayList(); 
+		return users.iterator(); 
+	} 
+   
+	protected Iterator doGetAllUsersContainingId(String userId, String role) 
+				throws UserProfileResourceException { 
+				 
+		System.out.println("SampleUserManagerImpl.doGetAllUsersContainingId - This operation is not implemented !");  
+		ArrayList users = new ArrayList(); 
+		return users.iterator(); 
+	} 
