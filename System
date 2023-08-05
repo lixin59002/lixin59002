@@ -1,0 +1,8 @@
+protected Iterator doGetAllLikeInOrder(String[] columns, String[] values, 
+		String[] orders, boolean isDescending, int pageNum, int recPerPage, String role) 
+		throws UserProfileResourceException { 
+				 
+		System.out.println("SampleUserManagerImpl.doGetAllLikeInOrder - This operation is not implemented !");  
+		ArrayList users = new ArrayList(); 
+		return users.iterator(); 
+	} 
