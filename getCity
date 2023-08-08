@@ -1,0 +1,15 @@
+ public String getPostalCode() { 
+        return (String)fInfo.get("postalCode"); 
+    } 
+    public void setPostalCode(String param1) { 
+        if (param1 != null) 
+            fInfo.put("postalCode", param1); 
+    } 
+ 
+    public String getCity() { 
+        return (String)fInfo.get("city"); 
+    } 
+    public void setCity(String param1) { 
+    if (param1 != null) 
+        fInfo.put("city", param1); 
+    } 
