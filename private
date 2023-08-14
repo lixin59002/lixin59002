@@ -1,0 +1,9 @@
+ // Some constants for metadata
+    private static String SQL_SELECT_TABLE_COLS =
+            "SELECT T.table_id, T.table_name, T.table_flags,"
+            + " C.column_id, C.column_name, C.column_flags,"
+            + " C.column_domain, C.column_length, C.column_default"
+            + " FROM " + TableSchema.SYS_TABLES + " T"
+            + " JOIN " + TableSchema.SYS_COLUMNS + " C"
+            + " ON T.table_id = C.table_id"
+            + " ORDER BY T.table_id"
