@@ -1,0 +1,7 @@
+/** 
+   * see BillingManager#getBillingInfo(BillingInfo) 
+   */ 
+  public BillingInfo getBillingInfo(BillingInfo inBillingInfo) 
+         throws BillingException 
+  { 
+    if (GET_BILLING_INFO_RESPONSE == NULL) 
