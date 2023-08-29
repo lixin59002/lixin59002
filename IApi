@@ -1,0 +1,7 @@
+ // Retrieve the IApiContext from the HttpSession 
+  IApiContext apiContext = (IApiContext) session.getAttribute("API_CONTEXT"); 
+ 
+  // Get a reference to a Content Service 
+  IContentService cs = ApiServiceFactory.getContentService(apiContext); 
+ 
+  // Attempt to purchase a content item as part of a campaign 
